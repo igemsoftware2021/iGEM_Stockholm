@@ -26,13 +26,6 @@ end
 N(sub2ind(size(N),Subst(:,1),Subst(:,2)))=l;
 
 
-% for l= 2 
-% for n2 = round(numel(N)*0.25)                     
-% N(randperm(numel(N), n2)) = l;
-% end
-% end
-
-
 %3.5 Normal s.aureus
  y=3;
 [x,j]=find(N==0);
@@ -163,7 +156,8 @@ lp = 0.1;
 od = 0.007;
 op = 0.1;
 
-%% defining acid procution and death rate  --> for un-balanced condition
+%% defining acid procution and death rate  --> for un-balanced condition.  
+%Choose these parameters to see the simulation for un-balanced condition and make sure to comment out the parameters above!
 % kp = 0.01;
 % kd = 0.007;
 % mp = 0.01;
@@ -233,11 +227,12 @@ saveas(gca,fName);
 figure(1)
 hold on
 imagesc(a)               % display an image of the matrix a with scaled colors using a colormap
-colormap copper
-%colormap jet             %jet is the chosen colormap
-colorbar  % shows the color scale 0= dark blue, 1 = blue, 2 = light blue, 3 = light green and 4 = yellow
+colormap copper          %copper is the chosen colormap 
+colorbar  % shows the color scale 
 colorbar('Ticks',[0,1,2,3],'TickLabels',{'other','c.acne','s.epidermidis','s.aureus'})
 title ('Balanced skin microbe interaction')
+%choose the title below when simulating the un-balanced condition and make sure to comment out the title above!
+%title ('Dysbiosis skin microbe interaction')
 fName = ['normalanimation_',num2str(counter),'.jpg'];
 saveas(gca,fName);
 counter = counter + 1;  % counts the number of iteratios
