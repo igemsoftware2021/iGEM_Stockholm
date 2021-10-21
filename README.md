@@ -49,6 +49,8 @@ The crucial assumptions made in the MATLAB model are as follows:
 
 6] During dysbiosis there is a change in the values of proportionality constants for the growth and death rates leading to imbalance in bacterial population density.
 
+PS: Read the comments in the code creafully since there are some part that needs to be commented out (i.e. add %) and some that needs "%" to be removed!
+
 **References**
 
 (1) MATLAB. version 9.10.0.1602886 (R2021a). Natick, Massachusetts: The MathWorks Inc.; 2021.
