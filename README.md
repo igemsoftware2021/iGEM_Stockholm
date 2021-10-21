@@ -18,7 +18,7 @@ The various interactions can be summarised as follows:
 1] C. acnes inhibits proliferation of S. epidermidis through hydrolyzing sebum triglycerides and release of **propionic acid**
 2] C. acnes releases **coproporhyrin III** promoting S. aureus biofilm
 3] S. epidermidis inhibits proliferation of C. acnes through succinic acid (2)
-S. epidermidis can inhibit S. aureus biofilm formation with production of the serine protease **glutamyl endopeptidase (Esp)**. Moreover, when Esp-expressing S. epidermidis induces keratinocytes to produce antimicrobial peptides via immune cell signalling, S. aureus is effectively killed. (4)
+4] S. epidermidis can inhibit S. aureus biofilm formation with production of the serine protease **glutamyl endopeptidase (Esp)**. Moreover, when Esp-expressing S. epidermidis induces keratinocytes to produce antimicrobial peptides via immune cell signalling, S. aureus is effectively killed. (4)
 
 An imbalance in skin microbiota distribution, also known as dysbiosis, leads to several skin problems. Sudden over-colonization of the pilosebaceous unit in the skin by C. acne can cause a loss of diversification, loss of metabolic balance, potentially causing acne. Research has also shown that a loss of microbial diversity and loss of balance between C. acnes phylotypes may lead to dysbiosis (3).
 
@@ -37,17 +37,17 @@ The crucial assumptions made in the MATLAB model are as follows:
 
 5] The proportionality relationships that we assumed in the model are as follows:
 
-  Growth rate of C.acnes and S.epidermidis is constant
+  * Growth rate of C.acnes and S.epidermidis is constant
 
-  Death rate of C.acnes is proportional to the concentration of Succinic acid
+  * Death rate of C.acnes is proportional to the concentration of Succinic acid
 
-  Death rate of S.epidermidis is proportional to the concentration of Propionic acid
+  * Death rate of S.epidermidis is proportional to the concentration of Propionic acid
 
-  Growth rate of S.aureus is proportional to the concentration of coproporhyrin III
+  * Growth rate of S.aureus is proportional to the concentration of coproporhyrin III
 
-  Death rate of S.aureus is proportional to the concentration of glutamyl endopeptidase (Esp)
+  * Death rate of S.aureus is proportional to the concentration of glutamyl endopeptidase (Esp)
 
-During dysbiosis there is a change in the values of proportionality constants for the growth and death rates leading to imbalance in bacterial population density.
+6] During dysbiosis there is a change in the values of proportionality constants for the growth and death rates leading to imbalance in bacterial population density.
 
 **References**
 
