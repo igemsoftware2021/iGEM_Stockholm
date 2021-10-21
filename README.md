@@ -1,5 +1,6 @@
 # iGEM_Stockholm
 **MatLab agent based model of skin microbial interaction during dysbiosis**
+
 As part of the dry lab, we wanted a model that showed the interactions among different microbes living in normal skin, and to make a simple representation of dysbiosis.
 
 During the summer we first spent time understanding and simplifying the complex skin microbial interactions by reading several research articles. Further, we used MATLAB to develop a model that plots the variation in skin microbial population distribution and respective metabolite concentration (1). We tried to model dysbiosis as being caused by deviations in crucial parameters such as microbial growth rates, death rates of metabolite production rates.
